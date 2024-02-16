@@ -85,6 +85,61 @@ body{
 /* MAIN CONTENT  */
 .main-content{
     flex-grow: 1;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /* SITE HERO */
+
+.intro-page {
+    display: flex;
+}
+.hero {
+    --text-color:#fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 570px;
+    border-radius: 20px;
+    overflow: hidden;
+    color: var(--text-color);
+}
+.hero-top {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 55px 60px;
+    background-color: #000;
+    background-image: url(../img/site-intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hero-badge {
+    padding: 5px 15px;
+    margin-bottom: 60px;
+    border: 1px solid var(--text-color);
+    border-radius: 41px;
+    line-height: normal;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.hero-heading {
+    margin-top: 0;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 25px;
+}
+.hero-text {
+    margin-top: 0;
+   font-size: 16px;
+   line-height: 26px;
+}
+.hero-bottom {
+    padding: 28px;
+    background-color: var(--green);
+    font-size: 19px;
+    text-align: center;
+}
