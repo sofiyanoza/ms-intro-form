@@ -1,3 +1,15 @@
+/* CUSTOM PROPS  */
+
+:root{
+    --body-bg : #f1f4ff;
+    --green:#4dc490;
+    --purple:#655af2;
+    --red:#f83535;
+    --text-color:#000;
+}
+
+
+
 /* GLOBAL */
 
 html{
@@ -18,11 +30,11 @@ body{
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Arial",sans-serif;
+    font-family: "inter", "Arial",sans-serif;
     font-size: 16px;
-    line-height: 1.5;
-    background-color: #fff;
-    color: #222;
+    line-height: 19px;
+    background-color: var(--body-bg);
+    color:var(--text-color);
 }
 
 .img{
@@ -33,14 +45,46 @@ body{
 /* CONTAINER  */
 .container{
     width: 100%;
-    max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 1192px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* FONTS  */
+
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); 
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v13-latin-600.woff2') format('woff2'); 
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v13-latin-700.woff2') format('woff2'); 
+  }
+
+
+
 
 /* MAIN CONTENT  */
 .main-content{
     flex-grow: 1;
 }
+
+/* SITE HERO */
